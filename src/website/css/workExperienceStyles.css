@@ -1,0 +1,79 @@
+.exp-section{
+    padding-bottom: 100px;
+    height: 100%;
+    width:100%;
+}
+
+.exp-disable{
+    visibility: hidden;
+}
+
+.company-name-container{
+ display: inline-table;
+ margin-left: 50%;
+ transform: translateX(-50%); 
+ padding-top: 8%;
+}
+
+.companyName{
+    font-family: var(--font-heading);
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.responsibilities-and-technologies-table{
+    margin-top: 10%;
+    margin-left: 3%;
+    display: inline-block;
+    width: 50%;
+}
+
+.responsibilities-data-container{
+    .key-point{
+        font-family: var(--font-content);
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+
+.technologies-data-container{
+    margin-left: 10%;
+    /* margin-top: 5px; */
+    transform: translateY(-100%) ;
+    .each-tech{
+        font-family: var(--font-content);
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
+
+.key-point-content{
+    margin-top: 0px;
+}
+
+.technologies-data-container{
+    display: inline-block;
+    width: 35%;
+}
+
+.tech-container-outline{
+    display: inline-block;
+    width:100px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.int-container-bg{
+    background-color: rgba(10, 133, 67, 0.141);
+}
+
+.eso-container-bg{
+    background-color: rgba(10, 20, 133, 0.141);
+}
+
+.inf-container-bg{
+    background-color: rgba(133, 57, 10, 0.141);
+}
