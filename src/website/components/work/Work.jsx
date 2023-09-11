@@ -1,4 +1,5 @@
-import '../../css/work.css'
+// import '../../css/work.css'
+import '../../css/responsivework.css'
 import { forwardRef } from 'react'
 
 const Work = forwardRef(function(props, ref){

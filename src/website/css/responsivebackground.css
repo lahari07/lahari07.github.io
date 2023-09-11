@@ -1,0 +1,313 @@
+:root{
+    --yellow : #F8DE7E;
+    --gray : #828E84;
+    --black : #000000;
+    --font-heading: 'UltraSolar Normal', sans-serif;
+    --font-content: 'Fahkwang', sans-serif;
+}
+
+.circle-yellow{
+    left:90vh;
+    bottom:60vh;
+    height: 100vh;
+    width: 100vh;
+    position: fixed;
+    border-radius: 100%;
+    background-color: var(--yellow);
+    /* transition: all 2s ease; */
+    /* animation: moveCircleYellow 2s linear 1;
+    animation-fill-mode: forwards */
+}
+
+.circle-yellow-outer{
+    position: fixed;
+    height: 120vh;
+    width: 120vh;
+    border: 1px solid var(--gray);
+    left: 80vh;
+    bottom: 50vh;
+    border-radius: 100%;
+}
+
+.circle-gray{
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+    background-color: var(--gray);
+    right: 90vh;
+    top: 60vh;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.circle-gray-outer{
+    position: fixed;
+    height: 130vh;
+    width: 130vh;
+    border: 1px solid var(--gray);
+    right: 80vh;
+    top: 50vh;
+    border-radius: 100%;
+}
+
+h1{
+    font-family:var(--font-heading)
+}
+
+/* EFFECTS FOR WORK */
+.cy-work{
+    animation: top-circles-work  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cyo-work{
+    animation: top-circles-work  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cg-work{
+    animation: bottom-circles-work  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cgo-work{
+    animation: bottom-circles-work  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+
+@keyframes top-circles-work {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50vh) translateY(20vh); 
+      /* border-radius: 0%; */
+      opacity: 0.9;
+      border:0px;
+    }
+  }
+
+  @keyframes bottom-circles-work {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(40vh) translateY(-30vh); 
+      /* border-radius: 0%; */
+      opacity: 0;
+    }
+  }
+
+/* EFFECTS FOR INTUIT */
+.cy-intuit{
+  /* transform: translateX(-50vh) translateY(10vh); */
+  animation: intuit-circles-work  0.5s linear 1;
+  animation-fill-mode: forwards;
+  background-image: url("./../../images/Quickbooks-Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--intuit-bg);
+  /* transform: translateX(-90vh) translateY(60vh) */
+  transform: translateX(-15vh) translateY(60vh);
+}
+
+.cyo-intuit{
+  transform: translateX(-50vh) translateY(20vh);
+  border: 0px solid black;
+}
+
+.cg-intuit{
+  opacity: 0;
+}
+
+.cgo-intuit{
+ border: 0px;
+}
+
+@keyframes intuit-circles-work {
+  0% {
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+    /* transform: translateX(-15vh) translateY(60vh); */
+  }
+}
+
+/* EFFECTS FOR ESORUS */
+.cy-esorus{
+  animation: esorus-circles-work  0.5s linear 1;
+  animation-fill-mode: forwards;
+  background-image: url("./../../images/esorus-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--esorus-bg);
+  /* transform: translateX(-90vh) translateY(60vh);  */
+  transform: translateX(-15vh) translateY(60vh);
+}
+
+.cyo-esorus{
+  transform: translateX(-50vh) translateY(20vh);
+  border: 0px solid black;
+}
+
+.cg-esorus{
+  opacity: 0;
+}
+
+.cgo-esorus{
+ border: 0px;
+}
+
+@keyframes esorus-circles-work {
+  0% {
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100% {
+    /* transform: translateX(-15vh) translateY(60vh); */
+    opacity: 0.9;
+    border:0px;
+  }
+}
+
+/* EFFECTS FOR INFOSYS */
+.cy-infosys{
+  animation: infosys-circles-work  0.5s linear 1;
+  animation-fill-mode: forwards;
+  background-image: url("./../../images/Infosys_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--infosys-bg);
+  /* transform: translateX(-90vh) translateY(60vh);  */
+  transform: translateX(-15vh) translateY(60vh);
+}
+
+.cyo-infosys{
+  transform: translateX(-50vh) translateY(20vh);
+  border: 0px solid black;
+}
+
+.cg-infosys{
+  opacity: 0;
+}
+
+.cgo-infosys{
+ border: 0px;
+}
+
+@keyframes infosys-circles-work {
+  0% {
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100% {
+    /* transform: translateX(-15vh) translateY(60vh); */
+    opacity: 0.9;
+    border:0px;
+  }
+}
+
+/* EFFECTS FOR PROJECTS */
+.cy-project{
+    animation: top-circles-project  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cyo-project{
+    animation: top-circles-project  0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cg-project{
+    animation: bottom-circles-project 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cgo-project{
+    animation: bottom-circles-project 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes top-circles-project {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+  @keyframes bottom-circles-project {
+    0% {
+      transform: translate(0)
+    }
+    100% {
+      transform: translateX(60vw) translateY(-30vh);
+      opacity: 0.9;
+      border: 0px;
+      border-radius: 10%;
+    }
+  }
+
+/* EFFECTS FOR CONTACT */
+.cy-contact{
+    animation: top-circles-contact 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cyo-contact{
+    animation: top-circles-contact 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cg-contact{
+    animation: bottom-circles-contact 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+.cgo-contact{
+    animation: bottom-circles-contact 0.8s linear 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes top-circles-contact {
+    0% {
+        /* opacity: 0; */
+        border: 0px;
+    } 50%{
+        border-radius: 10%;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50vw) translateY(50vh);
+        border-radius:100%;
+        opacity: 0.9;
+        border: 0px;
+    }
+  }
+
+  @keyframes bottom-circles-contact {
+    0% {
+      border:0px;
+    } 50%{
+        border-radius: 10%;
+    }
+    100% {
+      transform: translateX(50vw) translateY(-50vh);
+      border-radius: 100%;
+      opacity: 0.9;
+      border: 0px;
+    }
+  }

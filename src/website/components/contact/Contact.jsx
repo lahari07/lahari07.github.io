@@ -1,4 +1,5 @@
-import '../../css/contact.css'
+// import '../../css/contact.css'
+import '../../css/responsivecontact.css'
 import { forwardRef } from 'react'
 
 const Contact = forwardRef(function(props, ref){

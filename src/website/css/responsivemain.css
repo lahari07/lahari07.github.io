@@ -4,24 +4,19 @@
     --brown-light: #914F3B;
     --font-heading: 'UltraSolar Normal', sans-serif;
     --font-content: 'Fahkwang', sans-serif;
-    --intuit-bg: rgba(10, 133, 67, 0.208);
-    --esorus-bg: rgba(255, 193, 7, 0.208);
-    --infosys-bg: rgba(111, 195, 210, 0.208);
+    --intuit-bg: rgba(10, 133, 67, 0.723);
+    --esorus-bg: rgba(255, 193, 7, 0.857);
+    --infosys-bg: rgba(58, 209, 235, 0.829);
 }
 
 ::-webkit-scrollbar {
     width: 0px; /* Set the width of the scrollbar */
-}
-
-html{
-    font-size: 62.5%;
-}
+  }
 
 .full-page{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-color: white;
 }
 
 .main-container{

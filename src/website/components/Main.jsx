@@ -1,4 +1,5 @@
-import '../css/main.css'
+// import '../css/main.css'
+import '../css/responsivemain.css'
 import { useState, useRef, useEffect } from 'react'
 import Background from './Background.jsx'
 import Work from './work/Work.jsx'
@@ -99,7 +100,8 @@ export default function Main(){
                              'Communicate with multi-disciplinary teams of designers, product managers, and engineers on a daily basis', 
                              'Interviewed veteran Quickbooks users to improve the UX on the page'],
                 link:'https://quickbooks.intuit.com/',
-                technologies:['React', 'JavaScript', 'Cypress', 'Jest','GraphQL', 'Dojo', 'Git', 'Jira','Splunk', 'HTML', 'CSS', 'Figma']
+                technologies:['react', 'javascript', 'cypress', 'jest','graphql', 'dojo', 'git', 'jira','splunk', 'html', 'css', 'figma']
+                // technologies: [],
             },
             esorus:{
                 company:'ESORUS',
@@ -118,11 +120,6 @@ export default function Main(){
     return(
         <div className='full-page'>
             <div className='nav-bar-container'>
-                {/* <p className={aboutVisibility ? (workVisibility ? 'nav-items item-1' : 'nav-items item-1 selected-nav') : 'nav-items item-1'} 
-                    onClick={() => aboutRef.current.scrollIntoView()}>
-                    ABOUT 
-                    <span className='dot'>•</span>
-                </p> */}
                 <p className={workVisibility || intuitVisibility || esorusVisibility || infosysVisibility? (projectVisibility ? 'nav-items item-2' : 'nav-items item-2 selected-nav') : 'nav-items item-2'}  
                     onClick={() => workRef.current.scrollIntoView()}>
                     WORK 

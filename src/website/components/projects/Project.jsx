@@ -1,4 +1,5 @@
-import '../../css/project.css'
+// import '../../css/project.css'
+import '../../css/responsiveproject.css'
 import { forwardRef } from 'react'
 
 const Project = forwardRef(function(props,ref){

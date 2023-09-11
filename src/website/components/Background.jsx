@@ -1,4 +1,5 @@
-import '../css/background.css'
+// import '../css/background.css'
+import '../css/responsivebackground.css'
 
 export default function Background(props){
     const {classes} = props
