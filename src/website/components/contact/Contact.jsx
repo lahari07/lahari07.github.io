@@ -7,7 +7,7 @@ const Contact = forwardRef(function(props, ref){
     return(
         <div className={props.containerClass} ref={ref}>
             <div className='github'>
-                <p className='projects-checkout'>Checkout some of the projects I have worked @
+                <p className='projects-checkout'>You can check out some of the projects I've built @
                     <a href="https://github.com/lahari07" target='_blank'>
                         <img className='github-icon' src={github}></img>
                     </a>

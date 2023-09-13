@@ -157,8 +157,8 @@ export default function Main(){
                        <div className='about-content-container'>
                             <p className='about-content'>
                             I'm a recent Computer Science graduate driven by a relentless desire to enhance my skills. 
-                            I believe being a good developer is a combination of consistency and creativity.
-                            I'm dedicated to harnessing cutting-edge tools and technologies to create practical software solutions. 
+                            I believe that being a good developer is a combination of consistency and creativity.
+                            I enjoy building practical software solutions using cutting-edge tools and technologies. 
                             I'm actively on the lookout for opportunities to make meaningful contributions within the tech community.
                                 {/* I am a recent Computer Science graduate looking for ways to constantly upgrade my skills.
                                 I love bringing interactive web designs to life and working with captivating 3D models. 
