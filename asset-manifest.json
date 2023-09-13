@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.68e73b88.css",
-    "main.js": "/portfolio/static/js/main.0599d8fd.js",
+    "main.css": "/portfolio/static/css/main.905af672.css",
+    "main.js": "/portfolio/static/js/main.fc4fb355.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/react.png": "/portfolio/static/media/react.f153eb9f28437192c6a0.png",
+    "static/media/cypress.png": "/portfolio/static/media/cypress.7651d9b69799b6d71fb7.png",
+    "static/media/splunk.png": "/portfolio/static/media/splunk.7225704ba99290c9df23.png",
+    "static/media/esorus-logo.png": "/portfolio/static/media/esorus-logo.b1e05202a150d4387da3.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.716060e80340f6063c58.png",
+    "static/media/Infosys_logo.png": "/portfolio/static/media/Infosys_logo.c332953ad945d31fb9be.png",
+    "static/media/html.png": "/portfolio/static/media/html.1b987f9111abe06edac1.png",
+    "static/media/Quickbooks-Logo.png": "/portfolio/static/media/Quickbooks-Logo.6bd2201d174de8f24cf7.png",
+    "static/media/graphql.png": "/portfolio/static/media/graphql.0201ad68ec20503d5caa.png",
+    "static/media/css.png": "/portfolio/static/media/css.5c2eee7359409c87b5eb.png",
     "index.html": "/portfolio/index.html",
-    "main.68e73b88.css.map": "/portfolio/static/css/main.68e73b88.css.map",
-    "main.0599d8fd.js.map": "/portfolio/static/js/main.0599d8fd.js.map",
+    "main.905af672.css.map": "/portfolio/static/css/main.905af672.css.map",
+    "main.fc4fb355.js.map": "/portfolio/static/js/main.fc4fb355.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68e73b88.css",
-    "static/js/main.0599d8fd.js"
+    "static/css/main.905af672.css",
+    "static/js/main.fc4fb355.js"
   ]
 }
