@@ -40,8 +40,8 @@ export default function Main(){
     const infosysRef = useRef()
     const infosysVisibility = useIsVisible(infosysRef)
 
-    const projectRef = useRef()
-    const projectVisibility = useIsVisible(projectRef)
+    // const projectRef = useRef()
+    // const projectVisibility = useIsVisible(projectRef)
 
     const contactRef = useRef()
     const contactVisibility = useIsVisible(contactRef)
@@ -105,21 +105,28 @@ export default function Main(){
             },
             esorus:{
                 company:'ESORUS',
-                key_points: [],
+                key_points: ["Brainstormed UI/UX design decisions with the CEO, UX designer, and senior developer", 
+                            "Developed the first version of the website using React, Express.js, and GraphQL",
+                            "Integrated a Watson chatbot to instantaneously respond to user queries",
+                            "Pitched the startup to industry leads, attendees, and investors at the 2019 techne summit in Alexandria"],
                 link:'https://esorus.com/',
-                technologies:[],
+                technologies:["graphql","expressjs","react","ibmwatson"],
             },
             infosys:{
                 company:'INFOSYS',
-                key_points: [],
+                key_points: [
+                    "Worked in an agile-based environment",
+                    "Performed server-side operations",
+                    "Managed complete storage infrastructure",
+                ],
                 link:'https://www.infosys.com/',
-                technologies:[],
+                technologies:["nodejs", "foursquare","angular", "java", "spring", "hibernate","restapi"],
             }
         }
 
     return(
         <div className='full-page'>
-            <div className='nav-bar-container'>
+            {/* <div className='nav-bar-container'>
                 <p className={workVisibility || intuitVisibility || esorusVisibility || infosysVisibility? (projectVisibility ? 'nav-items item-2' : 'nav-items item-2 selected-nav') : 'nav-items item-2'}  
                     onClick={() => workRef.current.scrollIntoView()}>
                     WORK 
@@ -133,10 +140,24 @@ export default function Main(){
                     CONTACT 
                     <span className='dot'>•</span>
                 </p>
-            </div>
+            </div> */}
+            {/* <div className='nav-bar-container'>
+                <p className={workVisibility || intuitVisibility || esorusVisibility || infosysVisibility? (projectVisibility ? 'nav-items item-2' : 'nav-items item-2 selected-nav') : 'nav-items item-2'} >
+                    WORK 
+                    <span className='dot'>•</span>
+                </p>
+                <p className={projectVisibility ? (contactVisibility ? 'nav-items item-3' : 'nav-items item-3 selected-nav') : 'nav-items item-3'}>
+                    PROJECTS 
+                    <span className='dot'>•</span>
+                </p>
+                <p className={contactVisibility ? 'nav-items item-4 selected-nav' : 'nav-items item-4'}>
+                    CONTACT 
+                    <span className='dot'>•</span>
+                </p>
+            </div> */}
             <Background 
             classes={ (contactVisibility && classes.contact) ||
-                      (projectVisibility && classes.project) ||
+                    //   (projectVisibility && classes.project) ||
                       (infosysVisibility && classes.infosys) ||
                       (esorusVisibility && classes.esorus) ||
                       (intuitVisibility && classes.intuit) ||
@@ -151,10 +172,14 @@ export default function Main(){
                        </div>
                        <div className='about-content-container'>
                             <p className='about-content'>
-                                I am a recent Computer Science graduate with a passion for software development.
+                            I'm a recent Computer Science graduate driven by a relentless desire to enhance my skills. 
+                            I believe being a good developer is a combination of consistency and creativity.
+                            I'm dedicated to harnessing cutting-edge tools and technologies to create practical software solutions. 
+                            I'm actively on the lookout for opportunities to make meaningful contributions within the tech community.
+                                {/* I am a recent Computer Science graduate looking for ways to constantly upgrade my skills.
                                 I love bringing interactive web designs to life and working with captivating 3D models. 
                                 I am eager to scale up my contributions and am actively seeking opportunities to work for a company 
-                                with the goal of contributing to the web community 
+                                with the goal of contributing to the web community  */}
                             </p>
                        </div>
                     </div>
@@ -165,8 +190,9 @@ export default function Main(){
                 <InfosysExp ref={infosysRef} containerClass={projectVisibility ? "infosys-exp-section infosys-exp-disable" : "infosys-exp-section"}/> */}
                 <WorkExp ref={intuitRef} containerClass={esorusVisibility ? "exp-section exp-disable" : "exp-section"} experience={work_experience.intuit} containerColor="int-container-bg"/>
                 <WorkExp ref={esorusRef} containerClass={infosysVisibility ? "exp-section exp-disable" : "exp-section"} experience={work_experience.esorus} containerColor="eso-container-bg"/>
-                <WorkExp ref={infosysRef} containerClass={projectVisibility ? "exp-section exp-disable" : "exp-section"} experience={work_experience.infosys} containerColor="inf-container-bg"/>
-                <Projects ref={projectRef} containerClass={contactVisibility ? "project-section project-disable" : "project-section"}/>
+                {/* <WorkExp ref={infosysRef} containerClass={projectVisibility ? "exp-section exp-disable" : "exp-section"} experience={work_experience.infosys} containerColor="inf-container-bg"/> */}
+                <WorkExp ref={infosysRef} containerClass={contactVisibility ? "exp-section exp-disable" : "exp-section"} experience={work_experience.infosys} containerColor="inf-container-bg"/>
+                {/* <Projects ref={projectRef} containerClass={contactVisibility ? "project-section project-disable" : "project-section"}/> */}
                 <Contact ref={contactRef} containerClass="contact-section"/>
             </div>
         </div>

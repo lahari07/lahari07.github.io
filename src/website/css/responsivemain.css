@@ -41,7 +41,7 @@
     letter-spacing: 2px;
     display: inline-block;
     z-index: 2;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* background-color: rgba(0, 0, 0, 0.364); */
     color: black;
 }
@@ -50,9 +50,9 @@
     font-size: 25px;
 }
 
-.nav-items:hover{
+/* .nav-items:hover{
     text-decoration: underline;
-}
+} */
 
 .selected-nav{
     text-decoration: underline;

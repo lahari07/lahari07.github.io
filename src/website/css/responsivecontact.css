@@ -1,4 +1,54 @@
 .contact-section{
     height: 100%;
     width:100%;
+    font-family: var(--font-content);
+    font-size: 2rem;
+}
+
+.github{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.projects-checkout{
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 28%;
+}
+
+.github-icon{
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.github-icon:hover{
+    background-color: aliceblue;
+    /* width: 12%;
+    height: 12%;
+    cursor: pointer; */
+}
+
+.contact{
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    float: right;
+}
+
+.contact-content{
+    margin-top: 50%;
+}
+
+.email-icon{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.email-icon:hover{
+    background-color: aliceblue;
 }

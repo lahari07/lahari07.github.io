@@ -10,7 +10,7 @@ const Work = forwardRef(function(props, ref){
                 <p className='heading'>Work</p>
             </div>
             <div className='work-nav-container'>
-                <div className='work-nav-items-container'>
+                {/* <div className='work-nav-items-container'>
                     <p className='intuit-nav work-nav-item' onClick={() => props.intuitRef.current.scrollIntoView()}>
                         Intuit •
                     </p>
@@ -18,6 +18,17 @@ const Work = forwardRef(function(props, ref){
                         Esorus •
                     </p>
                     <p className='infosys-nav work-nav-item' onClick={() => props.infosysRef.current.scrollIntoView()}>
+                        Infosys •
+                    </p>
+                </div> */}
+                <div className='work-nav-items-container'>
+                    <p className='intuit-nav work-nav-item'>
+                        Intuit •
+                    </p>
+                    <p className='esorus-nav work-nav-item'>
+                        Esorus •
+                    </p>
+                    <p className='infosys-nav work-nav-item'>
                         Infosys •
                     </p>
                 </div>
