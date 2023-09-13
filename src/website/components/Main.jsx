@@ -141,20 +141,6 @@ export default function Main(){
                     <span className='dot'>•</span>
                 </p>
             </div> */}
-            {/* <div className='nav-bar-container'>
-                <p className={workVisibility || intuitVisibility || esorusVisibility || infosysVisibility? (projectVisibility ? 'nav-items item-2' : 'nav-items item-2 selected-nav') : 'nav-items item-2'} >
-                    WORK 
-                    <span className='dot'>•</span>
-                </p>
-                <p className={projectVisibility ? (contactVisibility ? 'nav-items item-3' : 'nav-items item-3 selected-nav') : 'nav-items item-3'}>
-                    PROJECTS 
-                    <span className='dot'>•</span>
-                </p>
-                <p className={contactVisibility ? 'nav-items item-4 selected-nav' : 'nav-items item-4'}>
-                    CONTACT 
-                    <span className='dot'>•</span>
-                </p>
-            </div> */}
             <Background 
             classes={ (contactVisibility && classes.contact) ||
                     //   (projectVisibility && classes.project) ||
