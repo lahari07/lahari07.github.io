@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.905af672.css",
-    "main.js": "/portfolio/static/js/main.fc4fb355.js",
+    "main.css": "/portfolio/static/css/main.49598db6.css",
+    "main.js": "/portfolio/static/js/main.3e61a82c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/react.png": "/portfolio/static/media/react.f153eb9f28437192c6a0.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
     "static/media/cypress.png": "/portfolio/static/media/cypress.7651d9b69799b6d71fb7.png",
     "static/media/splunk.png": "/portfolio/static/media/splunk.7225704ba99290c9df23.png",
+    "static/media/spring.png": "/portfolio/static/media/spring.ab51932837f306df784b.png",
     "static/media/esorus-logo.png": "/portfolio/static/media/esorus-logo.b1e05202a150d4387da3.png",
+    "static/media/angular.png": "/portfolio/static/media/angular.cf7b3beaedc2382d265c.png",
+    "static/media/ibmwatson.png": "/portfolio/static/media/ibmwatson.435eeaf6bc759781b72c.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.716060e80340f6063c58.png",
+    "static/media/expressjs.png": "/portfolio/static/media/expressjs.42da08927f9630be2853.png",
     "static/media/Infosys_logo.png": "/portfolio/static/media/Infosys_logo.c332953ad945d31fb9be.png",
     "static/media/html.png": "/portfolio/static/media/html.1b987f9111abe06edac1.png",
     "static/media/Quickbooks-Logo.png": "/portfolio/static/media/Quickbooks-Logo.6bd2201d174de8f24cf7.png",
     "static/media/graphql.png": "/portfolio/static/media/graphql.0201ad68ec20503d5caa.png",
+    "static/media/foursquare.png": "/portfolio/static/media/foursquare.8d6ef99acb926d236b7f.png",
+    "static/media/hibernate.png": "/portfolio/static/media/hibernate.49032b6538b347684561.png",
     "static/media/css.png": "/portfolio/static/media/css.5c2eee7359409c87b5eb.png",
+    "static/media/email.png": "/portfolio/static/media/email.647bb52528e6a0ce522c.png",
     "index.html": "/portfolio/index.html",
-    "main.905af672.css.map": "/portfolio/static/css/main.905af672.css.map",
-    "main.fc4fb355.js.map": "/portfolio/static/js/main.fc4fb355.js.map",
+    "main.49598db6.css.map": "/portfolio/static/css/main.49598db6.css.map",
+    "main.3e61a82c.js.map": "/portfolio/static/js/main.3e61a82c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.905af672.css",
-    "static/js/main.fc4fb355.js"
+    "static/css/main.49598db6.css",
+    "static/js/main.3e61a82c.js"
   ]
 }
