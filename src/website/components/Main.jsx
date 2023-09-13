@@ -1,10 +1,8 @@
-// import '../css/main.css'
 import '../css/responsivemain.css'
 import { useState, useRef, useEffect } from 'react'
 import Background from './Background.jsx'
 import Work from './work/Work.jsx'
 import WorkExp from './work/WorkExp'
-import Projects from './projects/Project.jsx'
 import Contact from './contact/Contact.jsx'
 
 function useIsVisible(ref) {

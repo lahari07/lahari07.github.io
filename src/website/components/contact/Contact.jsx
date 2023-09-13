@@ -1,4 +1,3 @@
-// import '../../css/contact.css'
 import '../../css/responsivecontact.css'
 import { forwardRef } from 'react'
 import github from '../../../images/github-logo.png'
